@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Łukasz Kumela Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Łukasz
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-6-line nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line nav__icon"></i> Qualifications
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-store-line nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-folder-line nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-mail-line nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm Łukasz <br>
+                        <span class="home__title-color">Junior Developer</span>
+                    </h1>
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="assets/img/prefil.png" alt="profile picture">
+                        </div>
+                    </div>
+                    <ul class="home__social">
+                        <li>
+                            <!-- <a href="https://www.linkedin.com/in/" target="_blank"
+                                class="home__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a> -->
+                        </li>
+                        <li>
+                            <a href="https://github.com/lkumela" target="_blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://lkumela.github.io/Resume_CV/" target="_blank"
+                                class="home__social-link">
+                                <i class="ri-window-2-fill"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="home__info-description">
+                            Hey, my name is Łukasz Kumela and I am a computer science student from Warsaw. I love
+                            creating new things, and in my projects I always strive for transparent, intuitive and
+                            dynamic user interface.
+                            I design and program with simplicity in mind, so my code is easy to read and well organized.
+                            I like to learn and I think that I quick learner. I speak Polish, English (B2) and Spanish
+                            (basics).
+                            In my free time I like playing games, videos and board games. I am also a big fan of paper
+                            RPGs (Warhammer 2ed, Call of Cthulhu and others ..)
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            HOBBIES
+                        </h3>
+                        <p class="home__info-description">
+                            Board games, paper RPGs, video games
+                        </p>
+                    </div>
+                </div>
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            EXPERIENCE
+                        </h3>
+                        <p class="home__info-number">
+                            1 <span>Year</span>
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            EDUCATION
+                        </h3>
+                        <p class="home__info-description">
+                            I attended the Mechatronic Technical School No. 1 in Warsaw. The school program prepared me
+                            to understand the basics of the IT world such as, computer construction and service, network
+                            design and programming.
+                            During high school I completed many Cisco and SUSE Linux courses. Acutally, I am studying
+                            Computer Science with a specialization in Website Engineering at Visutla University.
+                            This specialization prepares to program websites using a variety of tools and programming
+                            languages such as REACT, Node.js and PHP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My skills</span>
+            <div class="skills__container container grid section__border">
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Front-End
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skill__subtitle">Advanced</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/css-3.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skill__subtitle">Advanced</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/react-2.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">REACT</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/jquery-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">jQuery</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/angular.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Angular</h3>
+                            <span class="skill__subtitle">Basic</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/vue-js-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">VueJS</h3>
+                            <span class="skill__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-settings-3-line"></i> Back-End
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/php.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">PHP</h3>
+                            <span class="skill__subtitle">Advanced</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/javascript-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/Laravel.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Laravel</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/nodejs-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">NodeJS</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/c.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">.NET</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/python.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skill__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-database-3-line"></i></i> Database & Cloud Services
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/mysql.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">MYSQL</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/sqlserver.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">MS SQL Server</h3>
+                            <span class="skill__subtitle">Advanced</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/aws-2.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">AWS</h3>
+                            <span class="skill__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-tools-line"></i> Tools & Librairies
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/git-icon.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skill__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/rabbit.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">RabbitMQ</h3>
+                            <span class="skill__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">
+                Experience and Education
+            </span>
+            <div class="qualification__container container grid section__border">
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                IT specialist
+                            </h3>
+                            <span class="qualification__country">Mechatronic Technical School No. 1 in Warsaw</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">Bechelor of Computer Engineering</h3>
+                            <span class="qualification__country">Vistula University</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i> Work
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Junior .Net Developer
+                            </h3>
+                            <span class="qualification__country">PROSPEO Sp z o. o. </span>
+                            <span class="qualification__year">12.2020 - 08.2021</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Junior Web Developer
+                            </h3>
+                            <span class="qualification__country">JWA S.A.</span>
+                            <span class="qualification__year">10.2017 - 04.2018</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Web Developer Intern
+                            </h3>
+                            <span class="qualification__country">Akademia WWW</span>
+                            <span class="qualification__year">04.2016 - 07.2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+                    <h2 class="service__title">
+                        Website <br>
+                        Design
+                    </h2>
+                    <p class="services__description">
+                        Custom web development solutions for businesses of all sizes, focused on user experience,
+                        performance, and
+                        scalability
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+                <div class="services__card">
+                    <i class="ri-database-2-line"></i>
+                    <h2 class="service__title">
+                        Database <br>
+                        Administration
+                    </h2>
+                    <p class="services__description">
+                        Efficiently manage and optimize databases for businesses, ensuring data integrity,
+                        security, performance, and smooth operation.
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+                <div class="services__card">
+                    <i class="ri-settings-3-line"></i>
+                    <h2 class="service__title">
+                        Back-end Services
+                    </h2>
+                    <p class="services__description">
+                        Provide robust and scalable backend solutions, handling server-side logic,
+                        database management, and API development for seamless application functionality.
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/pro1.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Real Estate</h1>
+                                <a href="https://lkumela.github.io/RealEstate/" target="_blank"
+                                    class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/pro5.png" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Resume_CV</h1>
+                                <a href="https://lkumela.github.io/Resume_CV/" target="_blank"
+                                    class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/pro2.png" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Memory game</h1>
+                                <a href="https://lkumela.github.io/Memory-game/" target="_blank"
+                                    class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/pro3.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Symfony</span>
+                                <h1 class="projects__title">Job application</h1>
+                                <a href="https://github.com/lkumela/job_application_rokezzz" target="_blank"
+                                    class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="contac section" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <span class="section__subtitle">Get in Touch</span>
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Let's Chat
+                    </h3>
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email:</span>
+                            <span class="contact__data-info">l.kumela@outlook.com</span>
+                            <a href="#" class="contact__button"></a>
+                        </div>
+                        <div class="contact__data">
+                            <span class="contact__data-title">Phone</span>
+                            <span class="contact__data-info">+48 509-361-691</span>
+                            <a href="#" class="contact__button"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Text me for more info
+                    </h3>
+                    <form action="" class="contact__form" id="contact-form" method="post">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name: </label>
+                            <input type="text" name="user_name" required placeholder="Enter your name"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail: </label>
+                            <input type="email" name="user_email" required placeholder="Write your Email:"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">About:</label>
+                            <textarea type="text" name="user_project" placeholder="Text" id="contact-project"
+                                class="contact__form-input"></textarea>
+                        </div>
+                        <p class="contact__message" id="contact-message"></p>
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <h2 class="footer__title">Łukasz Kumela</h2>
+            <p>Junior Developer</p>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__social">
+
+                <a href="http://www.github.com/lkumela" target="_blank" rel="noopener" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+            </ul>
+            <p class="footer__copy">
+                &copy; 2023 lkumela. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
